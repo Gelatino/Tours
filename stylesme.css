@@ -1,0 +1,189 @@
+body {
+    background-color: #008080;
+    font-family: Arial, sans-serif;
+}
+
+.invitation {
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+}
+
+.animated-text {
+    animation: fadein 10s;
+    -moz-animation: fadein 10s; /* Firefox */
+    -webkit-animation: fadein 10s; /* Safari and Chrome */
+    -o-animation: fadein 10s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+/* Firefox */
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+/* Opera */
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+/* Snowflakes */
+.snowflakes {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.snowflake {
+    position: absolute;
+    background: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    bottom: 100%;
+    animation: fall linear infinite;
+
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+/* Make snowflakes fall at different speeds and from different positions */
+.snowflake {
+    animation-duration: var(--duration);
+    left: var(--left);
+}
+
+/* Create 100 snowflakes with different animation durations and starting positions */
+.snowflake:nth-child(1) { --i: 1; }
+.snowflake:nth-child(2) { --i: 2; }
+.snowflake:nth-child(3) { --i: 3; }
+.snowflake:nth-child(4) { --i: 4; }
+.snowflake:nth-child(5) { --i: 5; }
+.snowflake:nth-child(6) { --i: 6; }
+.snowflake:nth-child(7) { --i: 7; }
+.snowflake:nth-child(8) { --i: 8; }
+.snowflake:nth-child(9) { --i: 9; }
+.snowflake:nth-child(10) { --i: 10; }
+.snowflake:nth-child(11) { --i: 11; }
+.snowflake:nth-child(12) { --i: 12; }
+.snowflake:nth-child(13) { --i: 13; }
+.snowflake:nth-child(14) { --i: 14; }
+.snowflake:nth-child(15) { --i: 15; }
+.snowflake:nth-child(16) { --i: 16; }
+.snowflake:nth-child(17) { --i: 17; }
+.snowflake:nth-child(18) { --i: 18; }
+.snowflake:nth-child(19) { --i: 19; }
+.snowflake:nth-child(20) { --i: 20; }
+.snowflake:nth-child(21) { --i: 21; }
+.snowflake:nth-child(22) { --i: 22; }
+.snowflake:nth-child(23) { --i: 23; }
+.snowflake:nth-child(24) { --i: 24; }
+.snowflake:nth-child(25) { --i: 25; }
+.snowflake:nth-child(26) { --i: 26; }
+.snowflake:nth-child(27) { --i: 27; }
+.snowflake:nth-child(28) { --i: 28; }
+.snowflake:nth-child(29) { --i: 29; }
+.snowflake:nth-child(30) { --i: 30; }
+.snowflake:nth-child(31) { --i: 31; }
+.snowflake:nth-child(32) { --i: 32; }
+.snowflake:nth-child(33) { --i: 33; }
+.snowflake:nth-child(34) { --i: 34; }
+.snowflake:nth-child(35) { --i: 35; }
+.snowflake:nth-child(36) { --i: 36; }
+.snowflake:nth-child(37) { --i: 37; }
+.snowflake:nth-child(38) { --i: 38; }
+.snowflake:nth-child(39) { --i: 39; }
+.snowflake:nth-child(40) { --i: 40; }
+.snowflake:nth-child(41) { --i: 41; }
+.snowflake:nth-child(42) { --i: 42; }
+.snowflake:nth-child(43) { --i: 43; }
+.snowflake:nth-child(44) { --i: 44; }
+.snowflake:nth-child(45) { --i: 45; }
+.snowflake:nth-child(46) { --i: 46; }
+.snowflake:nth-child(47) { --i: 47; }
+.snowflake:nth-child(48) { --i: 48; }
+.snowflake:nth-child(49) { --i: 49; }
+.snowflake:nth-child(50) { --i: 50; }
+.snowflake:nth-child(51) { --i: 51; }
+.snowflake:nth-child(52) { --i: 52; }
+.snowflake:nth-child(53) { --i: 53; }
+.snowflake:nth-child(54) { --i: 54; }
+.snowflake:nth-child(55) { --i: 55; }
+.snowflake:nth-child(56) { --i: 56; }
+.snowflake:nth-child(57) { --i: 57; }
+.snowflake:nth-child(58) { --i: 58; }
+.snowflake:nth-child(59) { --i: 59; }
+.snowflake:nth-child(60) { --i: 60; }
+.snowflake:nth-child(61) { --i: 61; }
+.snowflake:nth-child(62) { --i: 62; }
+.snowflake:nth-child(63) { --i: 63; }
+.snowflake:nth-child(64) { --i: 64; }
+.snowflake:nth-child(65) { --i: 65; }
+.snowflake:nth-child(66) { --i: 66; }
+.snowflake:nth-child(67) { --i: 67; }
+.snowflake:nth-child(68) { --i: 68; }
+.snowflake:nth-child(69) { --i: 69; }
+.snowflake:nth-child(70) { --i: 70; }
+.snowflake:nth-child(71) { --i: 71; }
+.snowflake:nth-child(72) { --i: 72; }
+.snowflake:nth-child(73) { --i: 73; }
+.snowflake:nth-child(74) { --i: 74; }
+.snowflake:nth-child(75) { --i: 75; }
+.snowflake:nth-child(76) { --i: 76; }
+.snowflake:nth-child(77) { --i: 77; }
+.snowflake:nth-child(78) { --i: 78; }
+.snowflake:nth-child(79) { --i: 79; }
+.snowflake:nth-child(80) { --i: 80; }
+.snowflake:nth-child(81) { --i: 81; }
+.snowflake:nth-child(82) { --i: 82; }
+.snowflake:nth-child(83) { --i: 83; }
+.snowflake:nth-child(84) { --i: 84; }
+.snowflake:nth-child(85) { --i: 85; }
+.snowflake:nth-child(86) { --i: 86; }
+.snowflake:nth-child(87) { --i: 87; }
+.snowflake:nth-child(88) { --i: 88; }
+.snowflake:nth-child(89) { --i: 89; }
+.snowflake:nth-child(90) { --i: 90; }
+.snowflake:nth-child(91) { --i: 91; }
+.snowflake:nth-child(92) { --i: 92; }
+.snowflake:nth-child(93) { --i: 93; }
+.snowflake:nth-child(94) { --i: 94; }
+.snowflake:nth-child(95) { --i: 95; }
+.snowflake:nth-child(96) { --i: 96; }
+.snowflake:nth-child(97) { --i: 97; }
+.snowflake:nth-child(98) { --i: 98; }
+.snowflake:nth-child(99) { --i: 99; }
+.snowflake:nth-child(100) { --i: 100; }
