@@ -1,5 +1,5 @@
 body {
-    background-color: #008080;
+    background-color: #002396FF;
     font-family: Arial, sans-serif;
 }
 
@@ -7,6 +7,9 @@ body {
     text-align: center;
     margin-top: 20%;
     color: white;
+    font-size: 2em; /* Adjust as needed */
+    line-height: .2; /* Adjust as needed */
+    font-family: 'Cabin Sketch', cursive; /* Add this line */
 }
 
 .animated-text {
