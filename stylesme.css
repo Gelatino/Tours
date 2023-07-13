@@ -12,6 +12,10 @@ body {
     font-family: 'Cabin Sketch', cursive; /* Add this line */
 }
 
+a {
+    color: #02B6F2FF;
+}
+
 .animated-text {
     animation: fadein 10s;
     -moz-animation: fadein 10s; /* Firefox */
